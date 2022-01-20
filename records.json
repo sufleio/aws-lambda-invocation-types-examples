@@ -1,0 +1,31 @@
+{
+   "Records":[
+      {
+         "eventID":"1",
+         "eventName":"INSERT",
+         "eventVersion":"1.0",
+         "eventSource":"aws:dynamodb",
+         "awsRegion":"eu-west-1",
+         "dynamodb":{
+            "Keys":{
+               "Id":{
+                  "N":"101"
+               }
+            },
+            "NewImage":{
+               "email":{
+                  "S":"testa@stest.com"
+               },
+               "Id":{
+                  "N":"101"
+               }
+            },
+            "SequenceNumber":"111",
+            "SizeBytes":26,
+            "StreamViewType":"NEW_IMAGES"
+         },
+         "eventSourceARN":"arn:aws:dynamodb:eu-west-1:511186633739:table/lambda-invocations-test-DynamoDBTable-1M34JNX8SQDOA/stream/2022-01-16T18:04:50.665"
+      }
+   ]
+}
+
